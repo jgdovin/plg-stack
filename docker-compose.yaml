@@ -16,7 +16,7 @@ services:
     volumes:
       - ./loki/:/var/log/
     ports:
-      - "8082:8082"
+      - "8084:8084"
     networks:
       - loki
     depends_on:

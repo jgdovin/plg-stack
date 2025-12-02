@@ -12,7 +12,7 @@ COPY log_to_metrics.py .
 ENV PYTHONUNBUFFERED=1
 
 # Expose the metrics port
-EXPOSE 8082
+EXPOSE 8084
 
 # Run the script
 CMD ["python", "log_to_metrics.py"]
